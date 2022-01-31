@@ -43,7 +43,7 @@ body {
     font-weight: 300;
 }
 
-span {
+.inliner {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
