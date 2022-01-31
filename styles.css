@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    background: hsl(217, 54%, 11%);
+    font-family: "OUtfit", sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+}
+
+.card {
+    width: 375px;
+    padding: 2rem 1.8rem 2rem 1.8rem;
+    background: hsl(216, 50%, 16%);
+    border-radius: 25px;
+}
+
+.card-img {
+    display: block;    
+    border-radius: 15px;
+    width: 370px;
+    margin: 0 auto;
+}
+
+.card-texts {
+    margin-left: .3rem;
+}
+
+.card-header {
+    color: hsl(0, 0%, 100%);
+    font-weight:600;
+}
+
+.card-p {
+    color: hsl(215, 51%, 70%);
+    font-size: 23px;
+    font-weight: 300;
+}
+
+span {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.brand-logo {
+    margin: 0 .4rem 0 0;
+}
+
+.brand-header {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.etl-clock {
+    margin-left: 9rem;
+}
+
+.etl {
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    width: 360px;
+    border-style: solid;
+    border-width: thin;
+    border-color: hsl(215, 32%, 27%);
+}
+
+.avatar-img {
+    width: 3rem;
+    border-style: solid;
+    border-width: .1rem;
+    border-radius: 50%;
+    border-color:hsl(0, 0%, 100%);
+    margin: 0 1rem 0 .1rem;
+}
+
+.created-by {
+    color: hsl(215, 51%, 70%);
+    margin-right: .3rem;
+}
+
+.creator {
+    color: hsl(0, 0%, 100%);;
+}
