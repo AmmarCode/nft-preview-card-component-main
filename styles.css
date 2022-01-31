@@ -35,7 +35,7 @@ body {
 }
 
 .card-img {
-    background-image: url("images/image-equilibrium.jpg");
+    background-image: url("./images/image-equilibrium.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;    
@@ -54,7 +54,7 @@ body {
 }
 
 .card-view-img:hover{
-    background-image: url("images/icon-view.svg");
+    background-image: url("./images/icon-view.svg");
     background-color: hsl(178, 100%, 50%);
     background-repeat: no-repeat;
     background-position: 50% 50%;
