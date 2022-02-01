@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background: hsl(217, 54%, 11%);
     font-family: "OUtfit", sans-serif;
-    margin: 0;
-    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
 
 .container {
-    width: 85%;
-    margin: 9rem;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -17,9 +25,9 @@ body {
 }
 
 .card {
-    width: 20rem;
+    width: 21rem;
     max-width: 1440px;
-    padding: 1.5rem 0rem 1.5rem 1.5rem;
+    padding: 1.5rem;
     background: hsl(216, 50%, 16%);
     border-radius: 15px;
 }
@@ -63,28 +71,27 @@ body {
     transition: background-color ease-in .25s;
 }
 
-.card-texts {
-    margin-left: .3rem;
-}
-
 .card-header {
     color: hsl(0, 0%, 100%);
     font-weight:600;
     font-size: 23px;
     padding: .7rem 0 0 0;
+    margin: .7rem 0;
 }
 
 .card-p {
     color: hsl(215, 51%, 70%);
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 200;
     padding-right: 1rem;
+    margin: 1.5rem 0;
 }
 
 .inliner {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin: 1rem 0;
 }
 
 .brand-logo {
@@ -107,7 +114,7 @@ body {
 }
 
 hr {
-    width: 87%;
+    width: 95%;
     border-style: solid;
     border-width: thin;
     border-color: hsl(215, 32%, 27%);
@@ -129,7 +136,7 @@ hr {
 }
 
 .creator {
-    color: hsl(0, 0%, 100%);;
+    color: hsl(0, 0%, 100%);
 }
 
 .card-header:hover,
